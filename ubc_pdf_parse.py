@@ -88,7 +88,6 @@ data.hist(column='salary', bins = 300)
 plt.xlabel('Salary ($)')
 plt.ylabel("Number Of Professors")
 
-index = data['salary'].argmax()
-print(data.iloc[index])
+
 
 
